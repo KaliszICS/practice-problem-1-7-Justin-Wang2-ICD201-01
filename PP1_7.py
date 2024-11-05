@@ -11,8 +11,8 @@ def q2():
   bool= num1 < num
   print(bool)
 def q3():
-   letter=input("Input the letter a: ")
-  bool= (letter =="a")
+   word=input("Input the letter a: ")
+  bool= (word =="a")
   print(bool)
 def q4():
   #Write code here
@@ -21,11 +21,11 @@ def q4():
   print(bool)
 def q5():
   #Write code here
-  num1 = int(input("Input an integer: "))
-  num2 = int(input("Input another integer: "))
-  num3 = num1 * num2
-  result = num3 > 40
-  print("Your numbers multiplied together are greater than 40:", result)
+  num = int(input("Input an integer: "))
+  num1 = int(input("Input another integer: "))
+  num2 = num * num1
+  end = num2 > 40
+  print("Your numbers multiplied together are greater than 40:", end)
 
 
 #Do edit the code below
