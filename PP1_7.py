@@ -1,13 +1,14 @@
 
 
 q1():
-true = True
-print(true)
+  true = True
+  print(true)
 q2():
   num = input("Input an integer: ")
   num1 = 5
+  num1 = int(num1)
   num = int(num)
-  bool = num > num1
+  bool = num1 < num
   print(bool)
 q3():
   num = input("Input the letter a:")
