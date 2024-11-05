@@ -19,13 +19,11 @@ q4():
   print(bool)
 
 q5():
-  word = input("Input an integer: ")
-  word1 = input("Input another integer: ")
-  word = int(word)
-  word1 = int(word1)
+  word = int(input("Input an integer: "))
+  word1 = int(input("Input another integer: "))
   word2 = word * word1
   boole = word2 > 40
-  print(f"Your numbers multiplied together are greater than 40:", {boole})
+  print("Your numbers multiplied together are greater than 40:", boole)
 
 
 #Do edit the code below
